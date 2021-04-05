@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        textName.text = "Diego - android 4.1 tendo que usar o plugin kotlin-android-extensions para poder referenciar diretamente os atributos da interface."
+        textName.text = "Diego - android 4.1 tendo que usar o plugin kotlin-android-extensions para poder referenciar diretamente os atributos da interface. \n\n implementação\n\nimplementation 'me.biubiubiu.justifytext:library:1.1'"
 
 supportActionBar!!.hide()
 
